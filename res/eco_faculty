@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:background="#9CDFFF">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="644dp"
+        android:text="SDU Business school"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize = "18dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="373dp"
+        app:srcCompat="@drawable/eco" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Accounting and Audit program is focused on training specialists in auditing, tax advice, financial and management consulting. The main goal program is to offer and organize theinternationally recognized professional qualification, which satisfies demand of local and international markets in the relevant area. The department has strong ties to the practice field, both in teaching and research, and attracts a high number of students. "
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

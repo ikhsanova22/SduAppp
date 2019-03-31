@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:background="#9CDFFF">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="644dp"
+        android:text="Faculty of Engineering and Natural sciences"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize = "18dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="373dp"
+        app:srcCompat="@drawable/eeng" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="341dp"
+        android:layout_height="291dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="66dp"
+        android:fontFamily="sans-serif-light"
+        android:text="During 4 years of intensive training in this specialty students become high-level specialists with technical and management skills. They are familiarized with various areas in IT and they choose what they want to do in the future, whether it is game, mobile or web application development, 3D modeling, data analysis, machine learning, artificial intelligence, or even more."
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

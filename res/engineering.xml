@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        app:srcCompat="@drawable/engineering" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="374dp"
+        android:text="There is a lack of specialists in the IT sphere in today's market. This demand is increasing every year. Suleyman Demirel University prepares specialists in certain technical areas, one of which is Information Systems.
+
+During 4 years of intensive training in this specialty students become high-level specialists with technical and management skills. They are familiarized with various areas in IT and they choose what they want to do in the future, whether it is game, mobile or web application development, 3D modeling, data analysis, machine learning, artificial intelligence, or even more."
+        android:textSize="24dp" />
+</RelativeLayout>

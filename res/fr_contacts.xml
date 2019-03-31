@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="50dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-thin"
+        android:text="Call-center"
+        android:textAlignment="center"
+        android:textColor="#0D2CD1"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/callcenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="+7 (727) 307 95 65"
+        android:background="#FFF"
+        android:textColor="#0096D8"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-thin"
+        android:text="Administration"
+        android:textAlignment="center"
+        android:textColor="#0D2CD1"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="118"
+        android:background="#FFF"
+        android:textColor="#0096D8"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-thin"
+        android:text="Chacellery"
+        android:textAlignment="center"
+        android:textColor="#0D2CD1"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/chancellery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="123"
+        android:background="#FFF"
+        android:textColor="#0096D8"
+        />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-thin"
+        android:text="Admission"
+        android:textAlignment="center"
+        android:textColor="#0D2CD1"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/admission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="231"
+        android:background="#FFF"
+        android:textColor="#0096D8"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-thin"
+        android:text="Web-site"
+        android:textAlignment="center"
+        android:textColor="#0D2CD1"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="sdu.edu.kz"
+        android:background="#FFF"
+        android:textColor="#0096D8"
+        />
+</LinearLayout>

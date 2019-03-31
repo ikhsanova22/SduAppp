@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:background="#9CDFFF">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="644dp"
+        android:text="Faculty of Education and Humanities"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize = "18dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="373dp"
+        app:srcCompat="@drawable/eedu" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="341dp"
+        android:layout_height="291dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Specialty of Philology (Kazakh Language) serves as an extraordinary center of creativity, inquiry, and discovery with a proud tradition of leadership in scholarship. The undergraduates become familiar with methods of linguistic and literary analysis and acquire a range of generic skills, including the ability for abstract and analytical thinking and synthesis of ideas. "
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

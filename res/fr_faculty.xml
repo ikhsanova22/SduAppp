@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".MainActivity"
+    android:layout_marginTop="40dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/news1"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="#FFF"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculties"
+            android:drawableStart="@drawable/university_icon"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="#fff"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/engineering" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="#fff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Faculty of Engineering and Natural sciences"
+                android:textColor="#29BCFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+There is a lack of specialists in the IT sphere in today's market. This demand is increasing every year. Suleyman Demirel University prepares specialists in certain technical areas, one of which is Information Systems.
+
+During 4 years of intensive training in this specialty students become high-level specialists with technical and management skills. They are familiarized with various areas in IT and they choose what they want to do in the future, whether it is game, mobile or web application development, 3D modeling, data analysis, machine learning, artificial intelligence, or even more."/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="#fff"
+                android:paddingTop="5dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/law1" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty of Law and Social sciences"
+                    android:textColor="#29BCFF"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The goal of this program is preparing qualified personnel with analytical thinking ability, working in the field of international relations, knowledgeable in the laws of the development of international relations and certain countries’ internal and external foreign policies." />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#fff"
+                    android:paddingTop="5dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/philolog" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty of Education and Humanities"
+                    android:textColor="#29BCFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In a multi-lingual and multi-cultural world, the Foreign Philology programme aims to provide young philologists with the superior scientific qualifications that will assist them in their future professional careers. Philology is a multi-level discipline which has many aspects, from the restoration of texts to their thorough interpretation. It offers a great breadth and variety, distinction and diversity as the texts it studies; however, in terms of methodology it is uniform and founded upon the theory of artistic speech, literature and the history of ideas." />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#fff"
+                    android:paddingTop="5dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="189dp"
+                    android:src="@drawable/econom" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SDU Business school"
+                    android:textColor="#29BCFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Economics, specialty «5B050600 – Economy» can perform analytical, research, organizational, managerial and educational (teaching) activities in the following areas: sectoral and regional markets, the economic entities of various organizational and legal forms; improvement of enterprise management system; formation of economic strategy and policy of the enterprises; regulation of social and economic relations at national, sectoral and intra levels.in this specialty Bachelor has a set of special theoretical knowledge and practical skills related to solving the problems of economic and organizational character, the application of modern technologies, information processing, decision making under dynamically changing environment, has sufficient theoretical knowledge to solve practical problems and problems in unusual situations, the conditions of uncertainty and risk." />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#fff"
+                    android:paddingTop="5dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

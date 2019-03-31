@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp">
+
+    <Button
+        android:id="@+id/eng_button"
+        android:layout_width="279dp"
+        android:layout_height="164dp"
+        android:layout_above="@+id/edu_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/engineering"
+        android:text="Faculty of Engineering and Natural sciences" />
+
+    <Button
+        android:id="@+id/edu_button"
+        android:layout_width="279dp"
+        android:layout_height="164dp"
+        android:layout_above="@+id/eco_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/philolog"
+        android:text="Faculty of Education and Humanities" />
+
+    <Button
+        android:id="@+id/eco_button"
+        android:layout_width="279dp"
+        android:layout_height="164dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/econom"
+        android:text="SDU Business school" />
+
+    <Button
+        android:id="@+id/law_button"
+        android:layout_width="279dp"
+        android:layout_height="164dp"
+        android:layout_above="@+id/eng_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/law1"
+        android:text="Faculty of Law and Social sciences" />
+
+</RelativeLayout>

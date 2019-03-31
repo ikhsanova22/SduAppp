@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/i_love_sdu" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Miras Akhmetov
+ Nuray Kimatova"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="293dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="106dp"
+        android:fontFamily="sans-serif-light"
+        android:text="SDU application"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>
